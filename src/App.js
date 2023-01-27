@@ -1,10 +1,13 @@
 import "./App.css";
+import CircleSelector from "./components/CircleSelector/CircleSelector";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">UNIT 4 FINAL ASSESSMENT</header>
-      <main>YOUR TWO COMPONENTS WILL GO HERE</main>
+      <main>
+        <CircleSelector />
+      </main>
     </div>
   );
 }
